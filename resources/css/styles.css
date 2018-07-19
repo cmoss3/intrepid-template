@@ -13,7 +13,7 @@ ol.list-inline li {
  * Top Bar
  */
 #top-bar {
-    padding: 10px;
+    padding: 5px;
     background-color: #F6F6F6;
     border-top: 3px solid #54B0DC;
     border-bottom: 1px solid #E6E4E4;
@@ -62,10 +62,26 @@ ol.list-inline li {
 }
 #navigation-wrapper nav ol li a.active-link,
 #navigation-wrapper nav ol li a:hover {
-    border-bottom: 3px solid #287199;
+    border-bottom: 4px solid #287199;
     color: #444;
 }
 #navigation-wrapper nav ol li a.search-link,
 #navigation-wrapper nav ol li a.search-link:hover {
     border-bottom: none;
+}
+img#navigation-shadow {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: -40px;
+    position: relative;
+    opacity: 0.3;
+    width: 100%;
+    height: 40px;
+}
+/*
+ * Banner Section
+ */
+#banner img.slide-background {
+    width: 100%;
+    height: auto;
 }
