@@ -170,7 +170,7 @@ img#navigation-shadow {
     #navigation-wrapper nav ol li a:active,
     #navigation-wrapper nav ol li a:visited {
         min-width: 70px;
-        font-size: 18px;
+        font-size: 15px;
         text-transform: none;
         border-bottom-color: rgba(0,0,0,0);
     }
@@ -182,6 +182,8 @@ img#navigation-shadow {
     #navigation-wrapper nav ol li a.search-link,
     #navigation-wrapper nav ol li a.search-link:hover {
         border-bottom: none;
+        min-width: 0;
+        margin-left: 20px;
     }
     img#navigation-shadow {
         margin: 0 auto;
@@ -217,7 +219,11 @@ img#navigation-shadow {
     #navigation-wrapper nav ol li a:hover,
     #navigation-wrapper nav ol li a:active,
     #navigation-wrapper nav ol li a:visited {
-        font-size: 16px;
         min-width: 50px;
+    }
+    #navigation-wrapper nav ol li a.search-link,
+    #navigation-wrapper nav ol li a.search-link:hover {
+        margin-left: 10px;
+        min-width: 0;
     }
 }
